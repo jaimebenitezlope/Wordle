@@ -1,6 +1,81 @@
-body {
-	margin: 0;
-	font-family: sans-serif;
-	background-color: #333;
-	/* background-image: url(../assets/images/sleep-cat.jpeg); */
+:root {
+    --color-incorrect: #757575;
+    --color-present: #e4a81d;
+    --color-correct: #43a047;
+    --color-error: #bb3429;
 }
+
+body {
+    background-color: #fbfbfb;
+    color: #f0f8ff;
+    font-family: sans-serif;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.game-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.letter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.input {
+    width: 300px;
+    height: 30px;
+    background: none;
+    border: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.grey{
+    background-color: grey;
+}
+
+h1,p{
+    color: black;
+}
+
+#win-message {
+    text-align: center;
+    display: none;
+}
+
+#try-again-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  #try-again-btn:hover {
+    background-color: #45a049;
+  }
+
