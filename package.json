@@ -1,0 +1,33 @@
+{
+	"name": "vite-template-css",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "rm -rf ./docs & vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.17",
+		"cssnano": "^6.0.3",
+		"eslint": "^8.56.0",
+		"eslint-config-standard": "^17.1.0",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-n": "^16.6.2",
+		"eslint-plugin-promise": "^6.1.1",
+		"postcss": "^8.4.34",
+		"postcss-preset-env": "^9.3.0",
+		"sass": "^1.70.0",
+		"sharp": "^0.33.2",
+		"svgo": "^3.2.0",
+		"vite": "^5.0.12",
+		"vite-plugin-image-optimizer": "^1.1.7",
+		"vite-plugin-minify": "^1.5.2"
+	},
+	"dependencies": {
+		"eslint-config-prettier": "^9.1.0",
+		"normalize": "^0.3.1",
+		"prettier": "^3.2.5"
+	}
+}
